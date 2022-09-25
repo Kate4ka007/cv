@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css?family=Bellota+Text:300,300italic,regular,italic,700,700italic);
+@import "../../styles.scss";
+
+.contacts {
+  margin-bottom: 100px;
+  
+  &__title {
+    font-family: "Bellota Text";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 141%;
+    text-align: right;
+    letter-spacing: 0.02em;
+    color: $color-main;
+  }
+
+  &__subtitle {
+    display: flex;
+    margin-bottom: 50px;
+  }
+
+  &__job {
+    width: 50%;
+    align-self: center;
+    background: #fc9393;
+    color: #ffffff;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 150%;
+    text-align: center;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+
+  &__contacts {
+    width: 50%;
+    background: rgba(196, 196, 196, 0.3);
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: rgba(0, 0, 0, 0.6);
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  &__list-item {
+    display: flex;
+    flex-shrink: 1;
+    width: 47%;
+    gap: 20px;
+    padding-left: 10px;
+  }
+
+  &__subscribe {
+    border-bottom: 2px solid $color-light_grey;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3rem;
+    line-height: 150%;
+    flex-grow: 1;
+  }
+}

@@ -1,0 +1,29 @@
+<div class="skills">
+  <div class="skills-part" *ngFor="let skillGroup of skillsGroups">
+    <div class="skills__title">{{ skillGroup.title.toUpperCase() }}</div>
+    <div class="skills__line"></div>
+    <div class="skills__list">
+      <ul>
+        <li class="skills__item" *ngFor="let skill of skillGroup.skills">
+          {{ skill.toUpperCase() }}
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div style="height: 20px;">
+    <div class="skills__triangle-top"></div>
+    <div class="skills__triangle-middle"></div>
+    <div class="skills__triangle-bottom"></div>
+    <div class="skills__rect-top"><img src="assets/rect-blue.png" alt=""></div>
+    <div class="skills__rect-middle"><img src="assets/rect-fiol.png" alt=""></div>
+    <div class="skills__rect-bottom"><img src="assets/rect-green.png" alt=""></div>
+    <div class="skills__rect-blue small"><img src="assets/blue.png" alt=""></div>
+    <div class="skills__rect-fiol small"><img src="assets/fiol.png" alt=""></div>
+    <div class="skills__rect-yellow small"><img src="assets/rect-yellow.png" alt=""></div>
+    <div class="skills__rect-pink small"><img src="assets/rect-pink.png" alt=""></div>
+    <div class="skills__rect-green small"><img src="assets/green.png" alt=""></div>
+    <div class="skills__rect-yellow1 small"><img src="assets/rect-yellow.png" alt=""></div>
+    <div class="skills__rect-pink1 small"><img src="assets/rect-pink.png" alt=""></div>
+  </div>
+
+</div>

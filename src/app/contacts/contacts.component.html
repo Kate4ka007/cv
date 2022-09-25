@@ -1,0 +1,13 @@
+<div class="contacts">
+  <h1 class="contacts__title">Katsiaryna Shlemena</h1>
+  <div class="contacts__subtitle">
+    <div class="contacts__job">FRONT-END DEVELOPER</div>
+    <div class="contacts__contacts">CONTACT</div>
+  </div>
+  <div class="contacts__list">
+    <div *ngFor="let item of contacts" class="contacts__list-item">
+      <div class="contacts__icon" style="width: 25px;"><img src="{{ item.icon }}" alt="" style="width: 25px;"/></div>
+      <div class="contacts__subscribe">{{ item.subscribe }}</div>
+    </div>
+  </div>
+</div>

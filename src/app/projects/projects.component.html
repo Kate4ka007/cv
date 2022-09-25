@@ -1,0 +1,9 @@
+<div class="projects">
+  <div class="projects__title">PROJECTS</div>
+  <div class="projects__line"></div>
+  <div class="projects__item" *ngFor="let item of projects">
+    <div class="projects__name">{{item.name}}</div>
+    <div class="projects__subscribe">{{item.subscribe}}</div>
+    <div class="projects__image"><img src="{{item.path}}"></div>
+  </div>
+</div>
