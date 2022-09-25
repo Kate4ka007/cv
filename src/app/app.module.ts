@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { AppComponent } from './app.component';
-import { AboutComponent } from './about/about.component';
-import { SkillsComponent } from './skills/skills.component';
-import { ContactsComponent } from './contacts/contacts.component';
-import { EducationComponent } from './education/education.component';
-import { ProjectsComponent } from './projects/projects.component';
+import AppComponent from './app.component';
+import AboutComponent from './about/about.component';
+import SkillsComponent from './skills/skills.component';
+import ContactsComponent from './contacts/contacts.component';
+import EducationComponent from './education/education.component';
+import ProjectsComponent from './projects/projects.component';
 
 @NgModule({
   declarations: [
@@ -15,12 +15,12 @@ import { ProjectsComponent } from './projects/projects.component';
     SkillsComponent,
     ContactsComponent,
     EducationComponent,
-    ProjectsComponent
+    ProjectsComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export default class AppModule { }

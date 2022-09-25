@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   templateUrl: './contacts.component.html',
   styleUrls: ['./contacts.component.scss'],
 })
-export class ContactsComponent {
+export default class ContactsComponent {
   contacts = [
     { icon: 'assets/location.png', subscribe: 'Gomel, Belarus' },
     { icon: 'assets/github.png', subscribe: '@kate4ka007' },
@@ -14,7 +14,4 @@ export class ContactsComponent {
     { icon: 'assets/tel.png', subscribe: '+375291663266' },
     { icon: 'assets/teleg.png', subscribe: '@kate4ka007' },
   ];
-
-  constructor() {}
-
 }

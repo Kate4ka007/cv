@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   templateUrl: './skills.component.html',
   styleUrls: ['./skills.component.scss'],
 })
-export class SkillsComponent {
+export default class SkillsComponent {
   skillsGroups = [
     {
       title: 'working skills',
@@ -40,11 +40,7 @@ export class SkillsComponent {
     },
     {
       title: 'languages',
-      skills: ['english (B1)', 'russian (native)', 'belorussian (native)' ],
+      skills: ['english (B1)', 'russian (native)', 'belorussian (native)'],
     },
   ];
-
-  constructor() {}
-
-
 }

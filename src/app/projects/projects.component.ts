@@ -5,14 +5,11 @@ import { Component } from '@angular/core';
   templateUrl: './projects.component.html',
   styleUrls: ['./projects.component.scss'],
 })
-export class ProjectsComponent {
+export default class ProjectsComponent {
   projects = [
     { name: 'RS-lang', path: '', subscribe: '' },
     { name: 'Online-Store', path: '', subscribe: '' },
     { name: 'Shelter', path: '', subscribe: '' },
     { name: 'Virtual-keyboard', path: '', subscribe: '' },
-];
-
-  constructor() {}
-
+  ];
 }
