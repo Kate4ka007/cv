@@ -1,11 +1,11 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-contacts',
   templateUrl: './contacts.component.html',
   styleUrls: ['./contacts.component.scss'],
 })
-export class ContactsComponent implements OnInit {
+export class ContactsComponent {
   contacts = [
     { icon: 'assets/location.png', subscribe: 'Gomel, Belarus' },
     { icon: 'assets/github.png', subscribe: '@kate4ka007' },
@@ -17,5 +17,4 @@ export class ContactsComponent implements OnInit {
 
   constructor() {}
 
-  ngOnInit(): void {}
 }
