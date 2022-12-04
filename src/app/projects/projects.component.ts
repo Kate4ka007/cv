@@ -7,9 +7,13 @@ import { Component } from '@angular/core';
 })
 export default class ProjectsComponent {
   projects = [
-    { name: 'RS-lang', path: '', subscribe: '' },
-    { name: 'Online-Store', path: '', subscribe: '' },
-    { name: 'Shelter', path: '', subscribe: '' },
-    { name: 'Virtual-keyboard', path: '', subscribe: '' },
+    { name: 'Project management', path: 'assets/rs-task.JPG', subscribe: 'angular, typescript, angular material, ng-zorro, youtube-api' },
+    { name: 'Youtube', path: 'assets/rs-youtube2.JPG', subscribe: 'angular, typescript, Rxjs, NgRx, youtube-api, ng-zorro' },
+    { name: 'RS-lang', path: 'assets/rs-lang.JPG', subscribe: 'angular, typescript, angular material, team work' },
+  ];
+
+  projects_two = [
+    { name: 'Online-Store', path: 'assets/rs-online-store.JPG', subscribe: 'html, scss, typescript, webpack' },
+    { name: 'Shelter', path: 'assets/rs-shelter.JPG', subscribe: 'html, scss, javascript' },
   ];
 }

@@ -7,7 +7,7 @@
   padding-top: 50px;
   display: flex;
   flex-direction: column;
-  padding-bottom: 0;
+  padding-bottom: 225px;
 
   &__title {
     color: $color-main;
@@ -50,22 +50,22 @@
   }
 
   &__triangle-middle {
-    top: -465px;
-    left: 485px;
+    top: -450px;
+    left: 488px;
   }
   &__triangle-top {
-    top: -1191px;
-    left: 546px;
+    top: -1145px;
+    left: 548px;
   }
   &__triangle-bottom {
     top: -172px;
-    left: 424px;
+    left: 427px;
   }
 
   &__rect-top {
     width: 50px;
     position: relative;
-    top: -1170px;
+    top: -1155px;
     right: -385px;
 
   }
@@ -95,7 +95,7 @@ img {
 
 .skills__rect-blue {
   position: relative;
-  top: -770px;
+  top: -745px;
   right: -340px;
 
 }

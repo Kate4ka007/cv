@@ -2,8 +2,8 @@
 @import "../../styles.scss";
 
 .contacts {
-  margin-bottom: 100px;
-  
+  margin-bottom: 60px;
+
   &__title {
     font-family: "Bellota Text";
     font-style: normal;
@@ -48,6 +48,13 @@
     transform: matrix(1, 0, 0, 1, 0, 0);
   }
 
+  &__link {
+    width: 100%;
+    display: inline-flex;
+    gap: 10px;
+    text-decoration: none;
+  }
+
   &__list {
     display: flex;
     flex-wrap: wrap;
@@ -71,5 +78,8 @@
     font-size: 1.3rem;
     line-height: 150%;
     flex-grow: 1;
+    color: $color-main;
+    text-decoration: none;
+    cursor: pointer;
   }
 }

@@ -6,8 +6,10 @@
   </div>
   <div class="contacts__list">
     <div *ngFor="let item of contacts" class="contacts__list-item">
-      <div class="contacts__icon" style="width: 25px;"><img src="{{ item.icon }}" alt="" style="width: 25px;"/></div>
-      <div class="contacts__subscribe">{{ item.subscribe }}</div>
+      <a class="contacts__link" href="{{item.href}}" target="_blank">
+        <div class="contacts__icon" style="width: 25px;"><img src="{{ item.icon }}" alt="" style="width: 25px;"/></div>
+        <div class="contacts__subscribe">{{ item.subscribe }}</div>
+      </a>
     </div>
   </div>
 </div>
