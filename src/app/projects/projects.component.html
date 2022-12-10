@@ -5,7 +5,7 @@
     <div class="projects__items-part">
       <div class="projects__item" *ngFor="let item of projects">
         <div class="projects__name">{{item.name}}</div>
-        <div class="projects__subscribe">{{item.subscribe}}</div>
+        <div class="projects__subscribe">{{item.subscribe.toUpperCase()}}</div>
         <div class="projects__image">
           <img class="projects__img" src="{{item.path}}" alt='{{item.name}}'>
         </div>

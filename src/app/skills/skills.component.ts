@@ -21,7 +21,9 @@ export default class SkillsComponent {
         'rxjs, ngrx',
         'responsive design',
         'webpack',
-        'node.js, nest.js, sql',
+        'node.js',
+        'nest.js',
+        'GraphQL',
         'figma',
         'oop',
         'angular materials, ng-zorro',
@@ -41,6 +43,10 @@ export default class SkillsComponent {
     {
       title: 'languages',
       skills: ['english (B1)', 'russian (native)', 'belorussian (native)'],
+    },
+    {
+      title: 'work experience',
+      skills: ['2012 - 2021 - State Committee of Forensic Examinations of the Republic Belarus, medical forensic expert', '2022 - freelance'],
     },
   ];
 }
