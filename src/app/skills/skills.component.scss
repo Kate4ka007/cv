@@ -32,6 +32,7 @@
     font-weight: 400;
     font-size: 25px;
     line-height: 180%;
+
     &::marker {
       color: $color-list;
       font-size: 2rem;
@@ -53,10 +54,12 @@
     top: -845px;
     left: 488px;
   }
+
   &__triangle-top {
     top: -1790px;
     left: 548px;
   }
+
   &__triangle-bottom {
     top: -520px;
     left: 427px;
@@ -67,7 +70,6 @@
     position: relative;
     top: -1700px;
     right: -385px;
-
   }
 
   &__rect-middle {
@@ -97,18 +99,20 @@ img {
   position: relative;
   top: -980px;
   right: -340px;
-
 }
+
 .skills__rect-fiol {
   position: relative;
   top: -600px;
   right: -525px;
 }
+
 .skills__rect-yellow {
   position: relative;
   top: -1630px;
   right: -505px;
 }
+
 .skills__rect-pink {
   position: relative;
   top: -1830px;
@@ -126,22 +130,24 @@ img {
   top: -1000px;
   right: -380px;
 }
+
 .skills__rect-pink1 {
   position: relative;
   top: -950px;
   right: -210px;
 }
 
-
 img {
-  animation: 3s ease-in-out .6s infinite upAndDown;
+  animation: 3s ease-in-out 0.6s infinite upAndDown;
 }
 
 @keyframes upAndDown {
+
   0%,
   100% {
     transform: translate3d(0, 0, 0);
   }
+
   50% {
     transform: translate3d(0, 20%, 0);
   }
